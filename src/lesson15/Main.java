@@ -12,9 +12,10 @@ public class Main {
         holodilnik.printAllProducts();
         holodilnik.getProduct("Яблоко", 4);
         holodilnik.printAllProducts();
+        System.out.println();
 
         Recept recept = new Recept("Пирог", 30);
-        recept.addIngridient("Груша", 50);
+        recept.addIngridient("Груша", 5);
         recept.addIngridient("Слива", 3);
         recept.printAllIngridients();
         holodilnik.canCookDish(recept);
